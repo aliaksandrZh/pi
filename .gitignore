@@ -1,7 +1,8 @@
+.playwright-mcp/
+agent/auth.json
 agent/bin
 agent/install
-agent/staging
-agent/sessions
-agent/auth.json
 agent/models-store.json
-.playwright-mcp/
+agent/sessions
+agent/staging
+agent/web-search-cache/
