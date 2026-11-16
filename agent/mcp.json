@@ -8,6 +8,13 @@
         "--yes",
         "--prerelease"
       ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ]
     }
   }
 }

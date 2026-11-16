@@ -1,3 +1,4 @@
+pi mcp add playwright -- npx -y @playwright/mcp@latest
 pi install npm:pi-web-access
 
 # .NET skills (dotnet/skills) in Pi
