@@ -1,4 +1,4 @@
-agent/bin
-agent/install
-agent/staging
 agent/sessions
+agent/auth.json
+agent/models-store.json
+.playwright-mcp/
