@@ -1,5 +1,21 @@
 {
   "lastChangelogVersion": "1.5.2",
   "defaultProvider": "ollama",
-  "defaultModel": "glm-5.3-flash:cloud"
+  "defaultModel": "glm-5.3-flash:cloud",
+  "skills": [
+    "!~/.agents/skills/**",
+    "~/.claude/skills",
+    "~/Programming/pi/skills/plugins/dotnet/skills/msbuild",
+    "~/Programming/pi/skills/plugins/dotnet/skills/setup-local-sdk",
+    "~/Programming/pi/skills/plugins/dotnet-diag/skills/dotnet-trace-collect",
+    "~/Programming/pi/skills/plugins/dotnet-diag/skills/dump-collect",
+    "~/Programming/pi/skills/plugins/dotnet-diag/skills/microbenchmarking",
+    "~/Programming/pi/skills/plugins/dotnet-data/skills/optimizing-ef-core-queries",
+    "~/Programming/pi/skills/plugins/dotnet-msbuild/skills/binlog-generation",
+    "~/Programming/pi/skills/plugins/dotnet-msbuild/skills/binlog-failure-analysis"
+  ],
+  "packages": ["npm:pi-web-access"],
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.48.0"
+  }
 }
