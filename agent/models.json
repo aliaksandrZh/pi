@@ -6,10 +6,18 @@
       "apiKey": "ollama",
       "models": [
         {
-          "id": "glm-5.3-flash:cloud"
+          "id": "glm-5.3-flash:cloud",
+          "contextWindow": 1000000,
+          "cost": {
+            "input": 0.15,
+            "output": 0.5,
+            "cacheRead":0,
+            "cacheWrite": 0.03
+          }
         },
         {
-          "id": "qwen3.5:4b"
+          "id": "qwen3.5:4b",
+          "contextWindow": 256000
         }
       ]
     }
